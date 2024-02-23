@@ -1,0 +1,58 @@
+.form-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+.form-container .input-title {
+  padding: 20px;
+  width: 1000px;
+  border: none;
+  font-size: 26px;
+  font-weight: 700;
+}
+.form-container .input-title::-moz-placeholder {
+  font-size: 26px;
+  font-weight: 700;
+}
+.form-container .input-title::placeholder {
+  font-size: 26px;
+  font-weight: 700;
+}
+.form-container .input-title:focus {
+  outline: none;
+}
+.form-container .input-text {
+  padding: 20px;
+  width: 1000px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.form-container .input-text::-moz-placeholder {
+  font-size: 20px;
+}
+.form-container .input-text::placeholder {
+  font-size: 20px;
+}
+.form-container .input-text:focus {
+  outline: none;
+}
+.form-container .input-code {
+  padding: 20px;
+  width: 1000px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.form-container .input-code::-moz-placeholder {
+  font-size: 20px;
+}
+.form-container .input-code::placeholder {
+  font-size: 20px;
+}
+.form-container .input-code:focus {
+  outline: none;
+}
